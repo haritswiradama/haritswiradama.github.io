@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio html-tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-zinc-200">
+    <nav class="bg-stone-400 h-10 border">
+        <h1 class="font-[vt323] text-3xl uppercase text-center">harits <span
+                class="text-stone-700 uppercase">wiradama</span></h1>
+    </nav>
+    <section class="bg-stone-300 m-4 rounded-lg border-4 border-stone-600 items-center p-6 sm:h-auto gap-6">
+
+        <div class="text-center md:text-left">
+            <h1 class="font-[vt323] text-3xl font-bold mb-2">My name is</h1>
+            <div class="bg-stone-400 p-1 rounded-md inline-block mb-2">
+                <h1 id="typewriter" class="text-3xl font-[vt323] text-white border-r-4 border-white pr-2"></h1>
+            </div>
+            <p class="font-[vt323] text-stone-700 ">
+                Hello! My name is Harits, and I’m a beginner web developer who is passionate about learning and
+                improving every day.
+                I started my journey by exploring HTML, CSS, and Tailwind CSS to build clean and responsive web designs.
+                Although I’m still learning, I enjoy solving problems and experimenting with new ideas in web
+                development.
+                My goal is to gain more experience and become confident in creating modern, user-friendly websites.
+                I believe that consistency and curiosity are the keys to growing as a developer.
+                Every project I build is a small step toward becoming a better programmer.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="m-4 border-3 border-stone-600 rounded-lg p-4">
+        <h3 class="font-[vt323] text-3xl font-semibold text-stone-800 mb-4 text-center">Technology</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div
+                class="bg-stone-300 rounded border-4 border-stone-600 p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center shadow-md hover:shadow-xl transition">
+                <img src="assets/html5.png" alt="HTML Logo" class="h-32 mx-auto">
+                <div class="text-center md:text-left">
+                    <h2 class="font-[VT323] text-stone-700 text-3xl font-bold mb-2">HTML</h2>
+                    <p class="font-[VT323] text-stone-700 leading-relaxed">
+                        HTML is the foundation of every website. I use it to create clear and well-structured layouts
+                        that define how
+                        each section of a page should look and function. Learning HTML has helped me understand how
+                        websites are
+                        built from the ground up, and it’s the first step in turning my ideas into interactive web
+                        pages.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="bg-stone-300 rounded border-4 border-stone-600 p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center shadow-md hover:shadow-xl transition">
+                <img src="assets/css-3(1).png" alt="CSS Logo" class="h-32 mx-auto">
+                <div class="text-center md:text-left">
+                    <h2 class="font-[VT323] text-stone-700 text-3xl font-bold mb-2">CSS</h2>
+                    <p class="font-[VT323] text-stone-700 leading-relaxed">
+                        CSS allows me to turn plain web structures into beautiful and responsive designs. I use it to
+                        add colors,
+                        adjust spacing, and create layouts that look great on all devices. Through CSS, I’ve learned how
+                        to build
+                        modern interfaces that are both visually appealing and easy to use. It’s an essential tool for
+                        expressing
+                        creativity and improving the user experience.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="bg-stone-300 rounded border-4 border-stone-600 p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center shadow-md hover:shadow-xl transition">
+                <img src="assets/tailwind-css.svg" alt="Tailwind CSS Logo" class="h-32 mx-auto">
+                <div class="text-center md:text-left">
+                    <h2 class="font-[VT323] text-stone-700 text-3xl font-bold mb-2">Tailwind CSS</h2>
+                    <p class="font-[VT323] text-stone-700 leading-relaxed">
+                        Tailwind CSS helps me design faster by using utility classes to style elements directly in the
+                        markup.
+                        It allows me to create responsive, modern layouts without writing long custom CSS files. I love
+                        how it keeps
+                        my workflow clean and organized while encouraging consistency in design. As a beginner, Tailwind
+                        CSS has
+                        taught me how to structure interfaces efficiently and focus more on creativity instead of
+                        repetitive styling.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border-stone-400 my-8">
+
+    <!-- project -->
+
+    <h2 class="text-center text-3xl font-[vt323] font-bold ">My project</h2>
+
+    <section class=" flex justify-center items-center  mt-4 mb-10  ">
+
+
+        <!-- div cal + h2 -->
+        <div class="w-full mx-4 p-6 rounded-2xl shadow-lg border border-3 border-stone-600 ">
+
+
+            <h2
+                class="text-xl font-semibold mb-4 text-center px-2 bg-stone-400 rounded font-[vt323] border-3 border-stone-600 ">
+                calculator
+            </h2>
+
+            <!--div grid calculator -->
+            <div
+                class="w-full  p-6 rounded-2xl grid grid-cols-4 grid-rows-5 gap-4 shadow-lg border border-stone-600 border-3">
+
+                <div id="display"
+                    class="col-span-4 bg-stone-300 text-black text-right p-6 rounded-lg border-3 border-stone-600 shadow-md text-3xl font-[vt323]">
+                    0
+                </div>
+
+                <button class="btn  flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">1</button>
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">2</button>
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">3</button>
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">AC</button>
+
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">4</button>
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">5</button>
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">6</button>
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">+</button>
+
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">7</button>
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">8</button>
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">9</button>
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">-</button>
+
+                <button class="col-span-3 btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">0</button>
+                <button class="btn flex justify-center items-center bg-stone-300 rounded-lg border-3 border-stone-600 shadow-md p-6 text-2xl font-[vt323]
+        transition duration-150 ease-in-out hover:bg-stone-400 w-full;">=</button>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border-stone-400 my-8">
+
+    <section class=" mx-4 my-12">
+        <h3 class="text-3xl font-bold text-center mb-6 font-[VT323]">Learning Journey</h3>
+
+        <!-- Timeline container -->
+        <div class="relative">
+
+            <!-- Horizontal layout for md+ -->
+            <div class="hidden md:flex items-center justify-between">
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center text-center w-1/4">
+                    <div
+                        class="flex items-center justify-center w-14 h-14 rounded-full shadow-lg bg-stone-300 border border-stone-600 text-xl font-bold font-[VT323] mb-3">
+                        1</div>
+                    <h4 class="font-semibold font-[VT323]">Starting my coding path</h4>
+                    <p class="text-sm text-stone-600 mt-2 font-[VT323]">Start learning basic HTML & CSS and understand
+                        web structure.
+                    </p>
+                </div>
+
+                <!-- connector -->
+                <svg class="w-6 h-6 text-stone-600" viewBox="0 0 16 16" shape-rendering="crispEdges">
+                    <g fill="currentColor">
+                        <!-- Shaft -->
+                        <rect x="2" y="7" width="7" height="2" />
+                        <!-- Head -->
+                        <rect x="9" y="5" width="2" height="2" />
+                        <rect x="11" y="6" width="2" height="2" />
+                        <rect x="9" y="9" width="2" height="2" />
+                        <rect x="11" y="8" width="2" height="2" />
+                        <rect x="13" y="7" width="2" height="2" />
+                    </g>
+                </svg>
+
+
+
+
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center text-center w-1/4">
+                    <div
+                        class="flex items-center justify-center w-14 h-14 rounded-full shadow-lg bg-stone-300 border border-stone-600 text-xl font-bold font-[VT323] mb-3">
+                        2</div>
+                    <h4 class="font-semibold font-[VT323]">HTML & CSS fundamentals</h4>
+                    <p class="text-sm text-stone-600 mt-2 font-[VT323]">Learn responsive layout, Tailwind and basic
+                        styles.</p>
+                </div>
+
+                <!-- connector  -->
+                <svg class="w-6 h-6 text-stone-600" viewBox="0 0 16 16" shape-rendering="crispEdges">
+                    <g fill="currentColor">
+                        <!-- Shaft -->
+                        <rect x="2" y="7" width="7" height="2" />
+                        <!-- Head -->
+                        <rect x="9" y="5" width="2" height="2" />
+                        <rect x="11" y="6" width="2" height="2" />
+                        <rect x="9" y="9" width="2" height="2" />
+                        <rect x="11" y="8" width="2" height="2" />
+                        <rect x="13" y="7" width="2" height="2" />
+                    </g>
+                </svg>
+
+
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center text-center w-1/4">
+                    <div
+                        class="flex items-center justify-center w-14 h-14 rounded-full shadow-lg bg-stone-300 border border-stone-600 text-xl font-bold font-[VT323] mb-3">
+                        3</div>
+                    <h4 class="font-semibold font-[VT323]">Building my first projects</h4>
+                    <p class="text-sm text-stone-600 mt-2 font-[VT323]">Create simple projects such as calculators,
+                        landing pages, and interactive components.</p>
+                </div>
+
+                <!-- connector  -->
+                <svg class="w-6 h-6 text-stone-600" viewBox="0 0 16 16" shape-rendering="crispEdges">
+                    <g fill="currentColor">
+                        <!-- Shaft -->
+                        <rect x="2" y="7" width="7" height="2" />
+                        <!-- Head -->
+                        <rect x="9" y="5" width="2" height="2" />
+                        <rect x="11" y="6" width="2" height="2" />
+                        <rect x="9" y="9" width="2" height="2" />
+                        <rect x="11" y="8" width="2" height="2" />
+                        <rect x="13" y="7" width="2" height="2" />
+                    </g>
+                </svg>
+
+                <!-- Step 4 -->
+                <div class="flex flex-col items-center text-center w-1/4">
+                    <div
+                        class="flex items-center justify-center w-14 h-14 rounded-full shadow-lg bg-stone-400 border-stone-1000 text-white text-xl font-bold font-[VT323] mb-3">
+                        4</div>
+                    <h4 class="font-semibold font-[VT323]">Next step: keep learning</h4>
+                    <p class="text-sm text-stone-600 mt-2 font-[VT323]">Dive into JavaScript, React, and build real
+                        projects </p>
+                </div>
+            </div>
+
+            <!-- Vertical layout  -->
+            <div class="md:hidden flex flex-col items-center">
+                <!-- Item 1 -->
+                <div class="flex flex-col items-center text-center w-full max-w-md">
+                    <div
+                        class="flex items-center justify-center w-14 h-14 rounded-full bg-stone-300 border border-stone-600 text-xl font-bold font-[VT323] mb-3">
+                        1</div>
+                    <h4 class="font-semibold font-[VT323]">Starting my coding path</h4>
+                    <p class="text-sm text-stone-600 mt-2 mb-3 font-[VT323]">Start learning basic HTML & CSS and
+                        understand web structure.</p>
+                </div>
+
+                <!-- connector vertical -->
+                <div class="flex justify-center my-4">
+                    <svg class="w-6 h-6 text-stone-600" viewBox="0 0 16 16" shape-rendering="crispEdges">
+                        <g fill="currentColor">
+
+                            <!-- Shaft -->
+                            <rect x="7" y="2" width="2" height="7" />
+
+                            <!-- Head -->
+                            <rect x="5" y="9" width="2" height="2" />
+                            <rect x="6" y="11" width="2" height="2" />
+                            <rect x="9" y="11" width="2" height="2" />
+                            <rect x="10" y="9" width="2" height="2" />
+                            <rect x="7" y="13" width="2" height="2" />
+
+                        </g>
+                    </svg>
+                </div>
+
+
+                <!-- Item 2 -->
+                <div class="flex flex-col items-center text-center w-full max-w-md">
+                    <div
+                        class="flex items-center justify-center w-14 h-14 rounded-full bg-stone-300 border border-stone-600 text-xl font-bold font-[VT323] mb-3">
+                        2</div>
+                    <h4 class="font-semibold font-[VT323]">HTML & CSS fundamentals</h4>
+                    <p class="text-sm text-stone-600 mt-2 mb-3 font-[VT323]">Learn responsive layout, Tailwind and basic
+                        styles.</p>
+                </div>
+
+                <!-- connector vertical -->
+                <div class="flex justify-center my-4">
+                    <svg class="w-6 h-6 text-stone-600" viewBox="0 0 16 16" shape-rendering="crispEdges">
+                        <g fill="currentColor">
+
+                            <!-- Shaft -->
+                            <rect x="7" y="2" width="2" height="7" />
+
+                            <!-- Head -->
+                            <rect x="5" y="9" width="2" height="2" />
+                            <rect x="6" y="11" width="2" height="2" />
+                            <rect x="9" y="11" width="2" height="2" />
+                            <rect x="10" y="9" width="2" height="2" />
+                            <rect x="7" y="13" width="2" height="2" />
+
+                        </g>
+                    </svg>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="flex flex-col items-center text-center w-full max-w-md">
+                    <div
+                        class="flex items-center justify-center w-14 h-14 rounded-full bg-stone-300 border border-stone-600 text-xl font-bold font-[VT323] mb-3">
+                        3</div>
+                    <h4 class="font-semibold font-[VT323]">Building my first projects</h4>
+                    <p class="text-sm text-stone-600 mt-2 mb-3 font-[VT323]">Create simple projects such as calculators,
+                        landing pages, and interactive components.</p>
+                </div>
+
+                <!-- connector vertical -->
+                <div class="flex justify-center my-4">
+                    <svg class="w-6 h-6 text-stone-600" viewBox="0 0 16 16" shape-rendering="crispEdges">
+                        <g fill="currentColor">
+
+                            <!-- Shaft -->
+                            <rect x="7" y="2" width="2" height="7" />
+
+                            <!-- Head -->
+                            <rect x="5" y="9" width="2" height="2" />
+                            <rect x="6" y="11" width="2" height="2" />
+                            <rect x="9" y="11" width="2" height="2" />
+                            <rect x="10" y="9" width="2" height="2" />
+                            <rect x="7" y="13" width="2" height="2" />
+
+                        </g>
+                    </svg>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="flex flex-col items-center text-center w-full max-w-md">
+                    <div
+                        class="flex items-center justify-center w-14 h-14 rounded-full bg-stone-400 text-white text-xl font-bold font-[VT323] mb-3">
+                        4</div>
+                    <h4 class="font-semibold font-[VT323]">Next step: keep learning</h4>
+                    <p class="text-sm text-stone-600 mt-2 mb-3 font-[VT323]">Dive into JavaScript, React, and build real
+                        projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <hr class="border-stone-400 my-8">
+
+    <section class="mt-10 mb-16 px-4">
+        <h3 class="text-center text-3xl font-bold font-[vt323] mb-6">
+            what can i do
+        </h3>
+
+        <div class=" mx-auto bg-stone-300 shadow-lg border border-3 border-stone-600 rounded-2xl p-6 space-y-4">
+
+            <p class="text-lg font-[vt323]">
+                • I can build simple static web projects using
+                <span class="font-bold">HTML, CSS, Tailwind, and JavaScript.</span>
+            </p>
+
+            <p class="text-lg font-[vt323]">
+                • I can design clean and responsive UI components such as
+                buttons, layouts, cards, and calculators.
+            </p>
+
+            <p class="text-lg font-[vt323]">
+                • I can create interactive features using basic JavaScript logic.
+            </p>
+
+            <p class="text-lg font-[vt323]">
+                • I'm continuously learning more about front-end development,
+                design principles, and programming fundamentals.
+            </p>
+        </div>
+    </section>
+
+
+    <hr class="border-stone-400 my-8">
+
+    <section class="">
+        <h3 class="text-black text-3xl text-center font-semibold font-[vt323]">Let's work together</h3>
+        <div class="flex flex-rows mx-4 my-4 bg-stone-300 border border-stone-600 border-3 rounded-xl">
+            <img src="assets/—Pngtree—pixel art coffee pattern_6313729.png" alt="" class="h-25 w">
+            <div class="">
+                <div class="flex flex-rows mx-4 my-2">
+                    <img src="assets/email-outline.png" alt="" class="h-6 mx-1">
+                    <p class="font-[vt323]"><strong>Email Me</strong> <a href="mailto:pharitswiradama@gmail.com"
+                            target="_blank" class="relative inline-block 
+          after:content-[''] after:absolute after:left-1/2 after:bottom-0 
+          after:h-[2px] after:w-0 after:bg-black 
+          after:-translate-x-1/2 
+          after:transition-all after:duration-300 
+          hover:after:w-full">pharitswiradama@gmail.com</a></p>
+                </div>
+                <div class=" flex flex-rows mx-4 my-2">
+                    <img src="assets/whatsapp.png" alt="" class="h-6 mx-1">
+                    <p class="font-[vt323]"><strong>WhatsApp</strong> <a href="https://wa.me/6285793463671"
+                            target="_blank" class="relative inline-block 
+          after:content-[''] after:absolute after:left-1/2 after:bottom-0 
+          after:h-[2px] after:w-0 after:bg-black 
+          after:-translate-x-1/2 
+          after:transition-all after:duration-300 
+          hover:after:w-full
+          ">Call me</a></p>
+                </div>
+                <div class="flex flex-rows mx-4 my-2">
+                    <img src="assets/location.png" alt="" class="h-6 mx-1">
+                    <p class="font-[vt323]"><strong>location </strong>Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        const texts = ["Harits Wiradama"];
+        let i = 0;
+        let j = 0;
+        let isDeleting = false;
+        const speed = 100;
+        const delay = 2000;
+
+        function type() {
+            const currentText = texts[j];
+            const element = document.getElementById("typewriter");
+
+            if (!isDeleting && i < currentText.length) {
+                element.textContent = currentText.substring(0, i + 1);
+                i++;
+                setTimeout(type, speed);
+            }
+            else if (isDeleting && i > 0) {
+                element.textContent = currentText.substring(0, i - 1);
+                i--;
+                setTimeout(type, speed / 2);
+            }
+            else if (!isDeleting && i === currentText.length) {
+                isDeleting = true;
+                setTimeout(type, delay);
+            }
+            else if (isDeleting && i === 0) {
+                isDeleting = false;
+                j = (j + 1) % texts.length;
+                setTimeout(type, speed);
+            }
+        }
+
+        type();
+
+        //calculator
+        const display = document.getElementById("display");
+        const buttons = document.querySelectorAll("button");
+
+        let currentInput = "";    // angka yang sedang diketik
+        let previousValue = null; // angka sebelumnya
+        let operator = null;      // operator yang dipilih
+
+        buttons.forEach(button => {
+            button.addEventListener("click", () => {
+                const value = button.textContent;
+
+                // Jika angka ditekan
+                if (!isNaN(value)) {
+                    currentInput += value;
+                    display.textContent = currentInput;
+                }
+
+                // Jika operator ditekan (+ - * /)
+                else if (["+", "-", "*", "/"].includes(value)) {
+                    if (currentInput !== "") {
+                        if (previousValue === null) {
+                            previousValue = Number(currentInput);
+                        } else if (operator) {
+                            // lakukan perhitungan dulu sebelum ganti operator
+                            previousValue = calculate(previousValue, Number(currentInput), operator);
+                            display.textContent = previousValue;
+                        }
+                    }
+                    operator = value;
+                    currentInput = "";
+                }
+
+                // Jika "=" ditekan
+                else if (value === "=") {
+                    if (previousValue !== null && operator && currentInput !== "") {
+                        previousValue = calculate(previousValue, Number(currentInput), operator);
+                        display.textContent = previousValue;
+                        currentInput = "";
+                        operator = null;
+                    }
+                }
+
+                // Jika "AC" ditekan
+                else if (value === "AC") {
+                    currentInput = "";
+                    previousValue = null;
+                    operator = null;
+                    display.textContent = "0";
+                }
+            });
+        });
+
+        // Fungsi hitung manual
+        function calculate(a, b, op) {
+            switch (op) {
+                case "+": return a + b;
+                case "-": return a - b;
+                case "*": return a * b;
+                case "/": return b !== 0 ? a / b : "Error";
+                default: return b;
+            }
+        }
+
+    </script>
+</body>
+
+</html>
